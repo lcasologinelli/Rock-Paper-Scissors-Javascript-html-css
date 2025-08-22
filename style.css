@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(149, 179, 239);
+    margin: 0;
+}
+.first-line{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 50px 50px;
+    gap: 20px;
+}
+.second-line{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    gap: 20px;
+}
+.third-line{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    gap: 20px;
+}
+.humanbtn, .pcbtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    min-width: 120px;
+    min-height: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
